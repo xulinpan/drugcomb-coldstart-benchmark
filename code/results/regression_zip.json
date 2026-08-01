@@ -1,0 +1,9 @@
+{
+  "pearson_r_all": 0.6178991362402119,
+  "spearman_all": 0.5460252816334604,
+  "pearson_r_clipped100": 0.6095822974967804,
+  "n_clipped": 73557,
+  "pct_within_100": 99.91713982993289,
+  "mean_within_cellline_pearson_r": 0.4758848712826076,
+  "n_celllines_scored": 150
+}

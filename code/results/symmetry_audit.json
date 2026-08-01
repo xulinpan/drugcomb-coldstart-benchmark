@@ -1,0 +1,38 @@
+{
+  "_note": "Reviewer concern 1: drug-pair symmetry / reverse-pair leakage. LightGBM, standard grouped split, seed 42. Produced by experiments_symmetry.py.",
+  "audit": {
+    "n_test": 73618,
+    "n_total_rows": 739964,
+    "rows_drug_row_lt_col": 342497,
+    "rows_drug_row_gt_col": 397060,
+    "rows_drug_row_eq_col": 407,
+    "canonical_pair_cellline_keys": 635201,
+    "keys_present_in_both_orderings": 12343,
+    "pct_keys_both_orderings": 1.943,
+    "test_same_order_dup_in_train": 688,
+    "pct_test_same_order_dup": 0.935,
+    "test_reversed_in_train": 2420,
+    "pct_test_reversed": 3.287,
+    "test_contaminated_total": 3108,
+    "pct_test_contaminated": 4.222,
+    "validation_reversed_in_train": 2379,
+    "pct_validation_reversed": 3.203,
+    "leaked_rows_label_matches_train_twin": 2045,
+    "pct_leaked_label_agreement": 84.5,
+    "test_majority_class_rate_pct": 76.6
+  },
+  "ordered": {
+    "_desc": "published encoding (drug_row/drug_col as given)",
+    "full":              {"n": 73618, "accuracy": 0.7818, "balanced_accuracy": 0.8052, "macro_f1": 0.7026, "cohen_kappa": 0.5450, "macro_auc_ovr": 0.9221},
+    "clean":             {"n": 70510, "accuracy": 0.7817, "balanced_accuracy": 0.8074, "macro_f1": 0.7056, "cohen_kappa": 0.5495, "macro_auc_ovr": 0.9230},
+    "contaminated_only": {"n":  3108, "accuracy": 0.7847, "balanced_accuracy": 0.7014, "macro_f1": 0.5799, "cohen_kappa": 0.3770, "macro_auc_ovr": 0.8790},
+    "reversed_only":     {"n":  2420, "accuracy": 0.8483, "balanced_accuracy": 0.5787, "macro_f1": 0.5220, "cohen_kappa": 0.3316, "macro_auc_ovr": 0.8601},
+    "same_order_only":   {"n":   688, "accuracy": 0.5610, "balanced_accuracy": 0.6972, "macro_f1": 0.5339, "cohen_kappa": 0.3309, "macro_auc_ovr": 0.8508}
+  },
+  "canonical": {
+    "_desc": "order-invariant encoding: drug_1/drug_2 sorted, symmetric derived features",
+    "full":  {"n": 73618, "accuracy": 0.7798, "balanced_accuracy": 0.7992, "macro_f1": 0.6991, "cohen_kappa": 0.5394, "macro_auc_ovr": 0.9179},
+    "clean": {"n": 70510, "accuracy": 0.7809, "balanced_accuracy": 0.8025, "macro_f1": 0.7034, "cohen_kappa": 0.5460, "macro_auc_ovr": 0.9195}
+  },
+  "conclusion": "Reverse-pair contamination affects 4.22% of test rows (3.29% reversed + 0.94% same-order). Removing it does NOT reduce performance (balanced accuracy 0.8052 -> 0.8074), and the contaminated subset is predicted WORSE than the clean set, so the published results are not inflated by reverse-pair leakage. Order-invariant encoding costs ~0.006 balanced accuracy (0.8052 -> 0.7992). Under the strictest configuration (canonical encoding AND contaminated rows removed) balanced accuracy is 0.8025 vs 0.805 published: conclusions unchanged."
+}

@@ -1,0 +1,57 @@
+{
+  "skin": {
+    "n": 28675,
+    "balanced_accuracy": 0.7725875589097427,
+    "macro_f1": 0.6454068836232789
+  },
+  "haematopoietic_and_lymphoid": {
+    "n": 8019,
+    "balanced_accuracy": 0.7121549884507803,
+    "macro_f1": 0.6904259286102333
+  },
+  "lung": {
+    "n": 6656,
+    "balanced_accuracy": 0.63609234210237,
+    "macro_f1": 0.5985488570026568
+  },
+  "large_intestine": {
+    "n": 5923,
+    "balanced_accuracy": 0.6542133636880417,
+    "macro_f1": 0.6017149631042341
+  },
+  "breast": {
+    "n": 5689,
+    "balanced_accuracy": 0.6658868925631684,
+    "macro_f1": 0.6205999324540596
+  },
+  "ovary": {
+    "n": 5511,
+    "balanced_accuracy": 0.6366117531221686,
+    "macro_f1": 0.6179962404530147
+  },
+  "kidney": {
+    "n": 4524,
+    "balanced_accuracy": 0.6407324344365463,
+    "macro_f1": 0.6121252051026326
+  },
+  "brain": {
+    "n": 4229,
+    "balanced_accuracy": 0.6924145331546797,
+    "macro_f1": 0.6362468237177522
+  },
+  "prostate": {
+    "n": 1807,
+    "balanced_accuracy": 0.6425082946860862,
+    "macro_f1": 0.597968667968668
+  },
+  "malaria": {
+    "n": 1664,
+    "balanced_accuracy": 0.45938226177646807,
+    "macro_f1": 0.44410068153362414
+  },
+  "bone": {
+    "n": 393,
+    "balanced_accuracy": 0.48335953878406707,
+    "macro_f1": 0.424073212346828
+  }
+}

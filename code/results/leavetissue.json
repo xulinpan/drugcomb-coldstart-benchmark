@@ -1,0 +1,61 @@
+{
+  "split": "leave-tissue_name-out",
+  "held_out": [
+    "bone",
+    "brain",
+    "kidney",
+    "pancreas",
+    "prostate",
+    "stomach",
+    "urinary_tract"
+  ],
+  "n_held_out": 7,
+  "n_train": 565860,
+  "n_val": 62873,
+  "n_test": 111231,
+  "metrics": {
+    "accuracy": 0.904666864453255,
+    "balanced_accuracy": 0.4311713383673978,
+    "macro_f1": 0.46614636329398973,
+    "weighted_f1": 0.8864192410155817,
+    "cohen_kappa": 0.1970869268825901,
+    "macro_auc_ovr": 0.7720314007999791,
+    "per_class": {
+      "antagonistic": {
+        "precision": 0.38841342988808425,
+        "recall": 0.1491028556987617,
+        "f1": 0.21548575602629658,
+        "support": 3957.0
+      },
+      "additive": {
+        "precision": 0.9244888627604677,
+        "recall": 0.9755595600326923,
+        "f1": 0.9493378562256847,
+        "support": 101553.0
+      },
+      "synergistic": {
+        "precision": 0.37897214593958417,
+        "recall": 0.16885159937073937,
+        "f1": 0.2336154776299879,
+        "support": 5721.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        590,
+        3339,
+        28
+      ],
+      [
+        927,
+        99071,
+        1555
+      ],
+      [
+        2,
+        4753,
+        966
+      ]
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+# Core pipeline (versions used for the reported results)
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+lightgbm==4.6.0
+pyarrow==24.0.0
+matplotlib==3.10.8
+joblib==1.5.3
+
+# Optional: molecular (Morgan-fingerprint) comparator only
+# rdkit==2026.3.3

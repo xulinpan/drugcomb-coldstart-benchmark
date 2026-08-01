@@ -1,0 +1,9 @@
+{
+  "baseline_macro_f1": 0.7086947523269608,
+  "cell_line_name": 0.24724230549139875,
+  "tissue_name": -0.003863324434356108,
+  "joint_cell_tissue": 0.2557834527359967,
+  "sum_individual": 0.24337898105704264,
+  "superadditive": 0.012404471678954032,
+  "cell_lines_with_single_tissue_pct": 100.0
+}

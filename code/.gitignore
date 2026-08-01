@@ -1,0 +1,29 @@
+# data (large, redistributed from DrugComb)
+*.csv
+!src/drug_smiles_demo.csv
+summary_v_1_5.csv
+drugcomb_*_modeling.csv
+
+# cached artefacts and models
+outputs/
+*.parquet
+*.npz
+*.joblib
+model_lightgbm.txt
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# latex build
+*.aux
+*.log
+*.out
+*.synctex.gz
+
+# os
+.DS_Store
+Thumbs.db

@@ -1,0 +1,68 @@
+{
+  "split": "leave-study_name-out",
+  "held_out": [
+    "ALMANAC",
+    "ASTRAZENECA",
+    "BOBROWSKI",
+    "CLOUD",
+    "DYALL",
+    "FLOBAK",
+    "MILLER",
+    "MOTT",
+    "NCATS_ATL",
+    "NCATS_ES(NAMPT+PARP)",
+    "NCATS_HL",
+    "NCATS_SARS-COV-2DPI",
+    "SCHMIDT",
+    "YOHE"
+  ],
+  "n_held_out": 14,
+  "n_train": 300328,
+  "n_val": 33369,
+  "n_test": 406267,
+  "metrics": {
+    "accuracy": 0.850393952745362,
+    "balanced_accuracy": 0.33171906668626616,
+    "macro_f1": 0.31177525648523474,
+    "weighted_f1": 0.7939582548591257,
+    "cohen_kappa": -0.006944793592273291,
+    "macro_auc_ovr": 0.421405597104563,
+    "per_class": {
+      "antagonistic": {
+        "precision": 0.024271844660194174,
+        "recall": 0.0002784894730979169,
+        "f1": 0.0005506607929515419,
+        "support": 35908.0
+      },
+      "additive": {
+        "precision": 0.8618654898358561,
+        "recall": 0.9851689958400146,
+        "f1": 0.9194015225547393,
+        "support": 350482.0
+      },
+      "synergistic": {
+        "precision": 0.03689543108392277,
+        "recall": 0.009709714745685969,
+        "f1": 0.015373586108013383,
+        "support": 19877.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        10,
+        35690,
+        208
+      ],
+      [
+        368,
+        345284,
+        4830
+      ],
+      [
+        34,
+        19650,
+        193
+      ]
+    ]
+  }
+}

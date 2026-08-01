@@ -1,0 +1,17 @@
+{
+  "baseline_macro_f1": 0.7086947523269608,
+  "drops": {
+    "study_name": 0.016632307272654523,
+    "tissue_name": -0.003863324434356108,
+    "cell_line_name": 0.24724230549139875,
+    "drug_row": 0.12773538882048374,
+    "drug_col": 0.11500939568786639,
+    "drug_row_clinical_phase": -0.0003039425593867051,
+    "drug_col_clinical_phase": -8.363703360259045e-05,
+    "n_targets_row": 0.001246025979643961,
+    "n_targets_col": -0.0007990034802807244,
+    "has_target_row": 0.0,
+    "has_target_col": 0.0,
+    "shared_target": 0.00012801454792432665
+  }
+}

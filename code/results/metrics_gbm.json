@@ -1,0 +1,140 @@
+{
+  "model": "LightGBM",
+  "accuracy": 0.7818332473036486,
+  "balanced_accuracy": 0.8052341366084583,
+  "macro_f1": 0.7025720930231675,
+  "weighted_f1": 0.7979529757776324,
+  "cohen_kappa": 0.545016921640785,
+  "macro_auc_ovr": 0.9221353783759177,
+  "per_class": {
+    "antagonistic": {
+      "precision": 0.5243778765894376,
+      "recall": 0.8414069345349856,
+      "f1": 0.6460976547481738,
+      "support": 7989.0
+    },
+    "additive": {
+      "precision": 0.9489920853557218,
+      "recall": 0.7696604308892633,
+      "f1": 0.8499701369782539,
+      "support": 56395.0
+    },
+    "synergistic": {
+      "precision": 0.4933271363123299,
+      "recall": 0.8046350444011263,
+      "f1": 0.6116484873430748,
+      "support": 9234.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      6722,
+      1011,
+      256
+    ],
+    [
+      5615,
+      43405,
+      7375
+    ],
+    [
+      482,
+      1322,
+      7430
+    ]
+  ],
+  "best_iteration": 350,
+  "feature_importance": [
+    {
+      "feature": "drug_row",
+      "gain": 1216084.2232596874
+    },
+    {
+      "feature": "drug_col",
+      "gain": 1192422.361840129
+    },
+    {
+      "feature": "cell_line_name",
+      "gain": 1162921.4854180813
+    },
+    {
+      "feature": "study_name",
+      "gain": 510832.91559028625
+    },
+    {
+      "feature": "tissue_name",
+      "gain": 115744.38504087925
+    },
+    {
+      "feature": "n_targets_row",
+      "gain": 9594.791330695152
+    },
+    {
+      "feature": "n_targets_col",
+      "gain": 7855.820682168007
+    },
+    {
+      "feature": "drug_row_clinical_phase",
+      "gain": 3191.1780626773834
+    },
+    {
+      "feature": "drug_col_clinical_phase",
+      "gain": 3059.7571316957474
+    },
+    {
+      "feature": "shared_target",
+      "gain": 391.3389263153076
+    },
+    {
+      "feature": "has_target_col",
+      "gain": 65.59586954116821
+    },
+    {
+      "feature": "has_target_row",
+      "gain": 12.497599601745605
+    }
+  ],
+  "features_gbm": [
+    "study_name",
+    "tissue_name",
+    "cell_line_name",
+    "drug_row",
+    "drug_col",
+    "drug_row_clinical_phase",
+    "drug_col_clinical_phase",
+    "n_targets_row",
+    "n_targets_col",
+    "has_target_row",
+    "has_target_col",
+    "shared_target"
+  ],
+  "majority_baseline": {
+    "accuracy": 0.7660490640875873,
+    "macro_f1": 0.2891762105840698
+  },
+  "dataset": {
+    "n_total": 739964,
+    "n_train": 592068,
+    "n_val": 74278,
+    "n_test": 73618,
+    "classes": [
+      "antagonistic",
+      "additive",
+      "synergistic"
+    ],
+    "class_counts_total": {
+      "antagonistic": 79349,
+      "additive": 567236,
+      "synergistic": 93379
+    },
+    "class_counts_train": {
+      "antagonistic": 63407,
+      "additive": 454083,
+      "synergistic": 74578
+    },
+    "n_studies": 26,
+    "n_tissues": 17,
+    "n_cell_lines": 288,
+    "n_drugs": 4268
+  }
+}

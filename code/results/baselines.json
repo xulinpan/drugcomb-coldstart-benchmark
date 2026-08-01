@@ -1,0 +1,88 @@
+{
+  "global": {
+    "balanced_accuracy": 0.3333333333333333,
+    "macro_f1": 0.06526400921489578,
+    "accuracy": 0.10851965551903067,
+    "cohen_kappa": 0.0,
+    "macro_auc_ovr": 0.5,
+    "accuracy_unweighted_argmax": 0.7660490640875873,
+    "balanced_accuracy_unweighted_argmax": 0.3333333333333333,
+    "recall": {
+      "antagonistic": 1.0,
+      "additive": 0.0,
+      "synergistic": 0.0
+    }
+  },
+  "cell": {
+    "balanced_accuracy": 0.5974714205181848,
+    "macro_f1": 0.5162327630891312,
+    "accuracy": 0.6361216006954821,
+    "cohen_kappa": 0.3117482588313992,
+    "macro_auc_ovr": 0.7988134061915826,
+    "accuracy_unweighted_argmax": 0.7836942052215491,
+    "balanced_accuracy_unweighted_argmax": 0.46205051982364087,
+    "recall": {
+      "antagonistic": 0.5169608211290524,
+      "additive": 0.6556786949197624,
+      "synergistic": 0.6197747455057396
+    },
+    "missing_keys": 0
+  },
+  "pair": {
+    "balanced_accuracy": 0.611290874928542,
+    "macro_f1": 0.5098391301751315,
+    "accuracy": 0.62088076285691,
+    "cohen_kappa": 0.3154191395868119,
+    "macro_auc_ovr": 0.7817742931883701,
+    "accuracy_unweighted_argmax": 0.7670406694015051,
+    "balanced_accuracy_unweighted_argmax": 0.33941032667223897,
+    "recall": {
+      "antagonistic": 0.6227312554762798,
+      "additive": 0.6265626385317847,
+      "synergistic": 0.5845787307775612
+    },
+    "missing_keys": 6216
+  },
+  "drug_cell": {
+    "balanced_accuracy": 0.7782912750298908,
+    "macro_f1": 0.6465104704832627,
+    "accuracy": 0.7208155614116113,
+    "cohen_kappa": 0.462307461225796,
+    "macro_auc_ovr": 0.895051230809402,
+    "accuracy_unweighted_argmax": 0.8268901627319406,
+    "balanced_accuracy_unweighted_argmax": 0.539225100024744,
+    "recall": {
+      "antagonistic": 0.8467893353360871,
+      "additive": 0.690380352868162,
+      "synergistic": 0.7977041368854234
+    }
+  },
+  "pair_cell": {
+    "balanced_accuracy": 0.7750415373063589,
+    "macro_f1": 0.6466105338615159,
+    "accuracy": 0.7222010921242088,
+    "cohen_kappa": 0.4618091243335485,
+    "macro_auc_ovr": 0.8939255273064228,
+    "accuracy_unweighted_argmax": 0.8268901627319406,
+    "balanced_accuracy_unweighted_argmax": 0.539225100024744,
+    "recall": {
+      "antagonistic": 0.8396545249718362,
+      "additive": 0.6942636758577888,
+      "synergistic": 0.791206411089452
+    },
+    "missing_keys": 72930
+  },
+  "lgbm_depth1": {
+    "balanced_accuracy": 0.6534115328127852,
+    "macro_f1": 0.5614568926439311,
+    "accuracy": 0.6756363932733842,
+    "cohen_kappa": 0.3739522237305559,
+    "macro_auc_ovr": 0.8416379851020731,
+    "best_iteration": 599,
+    "recall": {
+      "antagonistic": 0.6059581925147077,
+      "additive": 0.6868516712474511,
+      "synergistic": 0.6674247346761967
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "A Leakage-Controlled Cold-Start Benchmark for Drug-Combination Synergy Classification",
+  "description": "Reproducible code and results for a leakage-controlled benchmark of drug-combination synergy classification from pre-treatment identity and context descriptors on DrugComb v1.5, evaluated under standard and cold-start (leave-drug-out, leave-cell-line-out, leave-tissue-out, leave-study-out) regimes.",
+  "license": "MIT",
+  "upload_type": "software",
+  "creators": [
+    { "name": "Pan, Xulin", "affiliation": "The Pennsylvania State University" }
+  ],
+  "keywords": [
+    "drug synergy", "drug combinations", "DrugComb", "ZIP score",
+    "benchmark", "cold-start generalization", "gradient boosting",
+    "computational pharmacology"
+  ],
+  "related_identifiers": [
+    { "identifier": "https://drugcomb.org/download/", "relation": "isDerivedFrom", "scheme": "url" },
+    { "identifier": "10.5281/zenodo.15235991", "relation": "isDerivedFrom", "scheme": "doi" }
+  ]
+}

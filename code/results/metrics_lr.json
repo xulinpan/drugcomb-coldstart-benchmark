@@ -1,0 +1,75 @@
+{
+  "model": "Logistic Regression",
+  "accuracy": 0.6893151131516748,
+  "balanced_accuracy": 0.6334334726807164,
+  "macro_f1": 0.5593685591641973,
+  "weighted_f1": 0.7210655498809144,
+  "cohen_kappa": 0.3728698646538696,
+  "macro_auc_ovr": 0.8211068366471236,
+  "per_class": {
+    "antagonistic": {
+      "precision": 0.35439030040929803,
+      "recall": 0.5744148203780198,
+      "f1": 0.4383417709427835,
+      "support": 7989.0
+    },
+    "additive": {
+      "precision": 0.9234868151386801,
+      "recall": 0.7191063037503325,
+      "f1": 0.8085814832168599,
+      "support": 56395.0
+    },
+    "synergistic": {
+      "precision": 0.3344076395105939,
+      "recall": 0.6067792939137968,
+      "f1": 0.43118242333294854,
+      "support": 9234.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      4589,
+      1515,
+      1885
+    ],
+    [
+      6574,
+      40554,
+      9267
+    ],
+    [
+      1786,
+      1845,
+      5603
+    ]
+  ],
+  "features_lr": [
+    "freq_study_name",
+    "te_study_name_antagonistic",
+    "te_study_name_additive",
+    "te_study_name_synergistic",
+    "freq_tissue_name",
+    "te_tissue_name_antagonistic",
+    "te_tissue_name_additive",
+    "te_tissue_name_synergistic",
+    "freq_cell_line_name",
+    "te_cell_line_name_antagonistic",
+    "te_cell_line_name_additive",
+    "te_cell_line_name_synergistic",
+    "freq_drug_row",
+    "te_drug_row_antagonistic",
+    "te_drug_row_additive",
+    "te_drug_row_synergistic",
+    "freq_drug_col",
+    "te_drug_col_antagonistic",
+    "te_drug_col_additive",
+    "te_drug_col_synergistic",
+    "drug_row_clinical_phase",
+    "drug_col_clinical_phase",
+    "n_targets_row",
+    "n_targets_col",
+    "has_target_row",
+    "has_target_col",
+    "shared_target"
+  ]
+}

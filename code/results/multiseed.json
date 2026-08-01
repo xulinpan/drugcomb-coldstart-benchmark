@@ -1,0 +1,417 @@
+{
+  "coldstudy|42": {
+    "regime": "coldstudy",
+    "seed": 42,
+    "n_train": 300328,
+    "n_val": 33369,
+    "n_test": 406267,
+    "n_held_out": 14,
+    "pooled": {
+      "n": 406267,
+      "accuracy": 0.850393952745362,
+      "balanced_accuracy": 0.33171906668626616,
+      "macro_f1": 0.31177525648523474,
+      "cohen_kappa": -0.006944793592273291,
+      "macro_auc_ovr": 0.421405597104563,
+      "recall": {
+        "antagonistic": 0.0002784894730979169,
+        "additive": 0.9851689958400146,
+        "synergistic": 0.009709714745685969
+      }
+    },
+    "held_out": [
+      "ALMANAC",
+      "ASTRAZENECA",
+      "BOBROWSKI",
+      "CLOUD",
+      "DYALL",
+      "FLOBAK",
+      "MILLER",
+      "MOTT",
+      "NCATS_ATL",
+      "NCATS_ES(NAMPT+PARP)",
+      "NCATS_HL",
+      "NCATS_SARS-COV-2DPI",
+      "SCHMIDT",
+      "YOHE"
+    ]
+  },
+  "coldstudy|43": {
+    "regime": "coldstudy",
+    "seed": 43,
+    "n_train": 469591,
+    "n_val": 52176,
+    "n_test": 218197,
+    "n_held_out": 2,
+    "pooled": {
+      "n": 218197,
+      "accuracy": 0.49642754025032426,
+      "balanced_accuracy": 0.3188706917146705,
+      "macro_f1": 0.2846291170216466,
+      "cohen_kappa": -0.03210272172158324,
+      "macro_auc_ovr": 0.4855152824803393,
+      "recall": {
+        "antagonistic": 0.007927027907481812,
+        "additive": 0.7973127891036484,
+        "synergistic": 0.15137225813288122
+      }
+    },
+    "held_out": [
+      "ASTRAZENECA",
+      "FRIEDMAN"
+    ]
+  },
+  "coldcell|42": {
+    "regime": "coldcell",
+    "seed": 42,
+    "n_train": 559653,
+    "n_val": 62183,
+    "n_test": 118128,
+    "n_held_out": 43,
+    "pooled": {
+      "n": 118128,
+      "accuracy": 0.7062254503589327,
+      "balanced_accuracy": 0.4819123285473605,
+      "macro_f1": 0.47029884380716486,
+      "cohen_kappa": 0.24342487406526248,
+      "macro_auc_ovr": 0.7726044786908494,
+      "recall": {
+        "antagonistic": 0.19625381458486793,
+        "additive": 0.8039970168289756,
+        "synergistic": 0.4454861542282379
+      }
+    },
+    "held_out": [
+      "451Lu",
+      "A2780",
+      "A498",
+      "AGS",
+      "BT-20",
+      "CBRC007",
+      "CBRC017",
+      "CBRC026",
+      "CBRC029",
+      "CBRC042",
+      "COLO 792",
+      "COLO320DM",
+      "DLD1",
+      "DU-145",
+      "EKVX",
+      "G-361",
+      "HB3",
+      "HCA7",
+      "HCC1569",
+      "HCC1806",
+      "HCC38",
+      "HOP-62",
+      "HS 578T",
+      "HT-1376",
+      "HT144",
+      "KPL1",
+      "LS513",
+      "MDAMB134V1FGF",
+      "NCI-H1299",
+      "NCI-H1975",
+      "NCI-H358",
+      "NCI/ADR-RES",
+      "PA1",
+      "PC346Flu1",
+      "PTENPC346FLU1",
+      "SK-MEL-2",
+      "SUM52PE",
+      "SW48",
+      "U3005MG",
+      "U3068MG",
+      "UACC-257",
+      "UWB1289+BRCA1",
+      "WM115"
+    ]
+  },
+  "coldcell|43": {
+    "regime": "coldcell",
+    "seed": 43,
+    "n_train": 551754,
+    "n_val": 61305,
+    "n_test": 126905,
+    "n_held_out": 43,
+    "pooled": {
+      "n": 126905,
+      "accuracy": 0.7581340372719751,
+      "balanced_accuracy": 0.473505640675896,
+      "macro_f1": 0.470811620563056,
+      "cohen_kappa": 0.2441479184673081,
+      "macro_auc_ovr": 0.8049380823712523,
+      "recall": {
+        "antagonistic": 0.156599751287973,
+        "additive": 0.8708721009616323,
+        "synergistic": 0.39304506977808285
+      }
+    },
+    "held_out": [
+      "4T1FGF",
+      "786-0",
+      "A101D",
+      "A498",
+      "C32 [Human colon adenocarcinoma]",
+      "CAL120FGF",
+      "CBRC008",
+      "CBRC034",
+      "CBRC058",
+      "DU4475",
+      "EW-8",
+      "HCA7",
+      "HCC-2998",
+      "HCC38",
+      "HOP-62",
+      "HT29",
+      "K-562",
+      "MCF7F10016FGF",
+      "MCF7SHIODA",
+      "MCF7T52",
+      "MDA-MB-415",
+      "NCI-H1299",
+      "NCI-H1703",
+      "NCI-H1793",
+      "NCI-H226",
+      "NCI-H322",
+      "NCI-H522",
+      "NCIH1703FGF",
+      "RKO",
+      "SF-295",
+      "SK-MEL-2",
+      "SK-MEL-28",
+      "SNU16HIGH4547",
+      "SW-620",
+      "SW48",
+      "SW780",
+      "SW780FGF",
+      "T98G",
+      "TC-71",
+      "TK-10",
+      "VCAP",
+      "WM3526",
+      "WM3619"
+    ]
+  },
+  "coldcell|44": {
+    "regime": "coldcell",
+    "seed": 44,
+    "n_train": 553185,
+    "n_val": 61464,
+    "n_test": 125315,
+    "n_held_out": 43,
+    "pooled": {
+      "n": 125315,
+      "accuracy": 0.7750389019670431,
+      "balanced_accuracy": 0.49314657831613745,
+      "macro_f1": 0.4923932757989986,
+      "cohen_kappa": 0.2785281131160068,
+      "macro_auc_ovr": 0.8159459545803589,
+      "recall": {
+        "antagonistic": 0.20184447704883673,
+        "additive": 0.876566202209503,
+        "synergistic": 0.40102905569007263
+      }
+    },
+    "held_out": [
+      "647V",
+      "A2058",
+      "ACHN",
+      "BT-549",
+      "CAKI-1",
+      "CBRC008",
+      "CBRC017",
+      "CBRC050",
+      "CBRC056",
+      "COLO 741",
+      "COLO 800",
+      "COLO320DM",
+      "DMS 114",
+      "ES2",
+      "HCC-2998",
+      "HCC1143",
+      "HCC1187",
+      "HCC38",
+      "HOP-92",
+      "HT-1197",
+      "HT29",
+      "LNCaP-AI",
+      "MCF7",
+      "MDA-MB-361",
+      "NCI-H1793",
+      "NCI-H3122",
+      "NCI-H838",
+      "OCUBM",
+      "PC-3",
+      "PC-9",
+      "RPMI-8226",
+      "RT112FGF",
+      "SF-268",
+      "SF-295",
+      "SKMEL30",
+      "SNU16FGF",
+      "SW-620",
+      "SW780",
+      "SW900",
+      "TCCSUP",
+      "UACC-812",
+      "UM-UC-3",
+      "UO-31"
+    ]
+  },
+  "colddrug|42": {
+    "regime": "colddrug",
+    "seed": 42,
+    "n_train": 540423,
+    "n_val": 60046,
+    "n_test": 139495,
+    "n_held_out": 512,
+    "pooled": {
+      "n": 139495,
+      "accuracy": 0.7597835047851177,
+      "balanced_accuracy": 0.6940401384659628,
+      "macro_f1": 0.6309512616175438,
+      "cohen_kappa": 0.4534904775042645,
+      "macro_auc_ovr": 0.8547048082660679,
+      "recall": {
+        "antagonistic": 0.6958698372966208,
+        "additive": 0.7923494756578403,
+        "synergistic": 0.5939011024434272
+      }
+    },
+    "S1_one_unseen": {
+      "n": 132630,
+      "accuracy": 0.7631229736861946,
+      "balanced_accuracy": 0.698198451284534,
+      "macro_f1": 0.6354754465610913,
+      "cohen_kappa": 0.45989497932644663,
+      "macro_auc_ovr": 0.8580396429500197,
+      "recall": {
+        "antagonistic": 0.7022483569699066,
+        "additive": 0.7954530063367677,
+        "synergistic": 0.5968939905469277
+      }
+    },
+    "S2_both_unseen": {
+      "n": 6865,
+      "accuracy": 0.6952658412235979,
+      "balanced_accuracy": 0.6109662821078556,
+      "macro_f1": 0.5498841479911597,
+      "cohen_kappa": 0.33650896212636017,
+      "macro_auc_ovr": 0.7857418698811376,
+      "recall": {
+        "antagonistic": 0.568870523415978,
+        "additive": 0.7333578521515263,
+        "synergistic": 0.5306704707560628
+      }
+    }
+  },
+  "colddrug|43": {
+    "regime": "colddrug",
+    "seed": 43,
+    "n_train": 507913,
+    "n_val": 56434,
+    "n_test": 175617,
+    "n_held_out": 512,
+    "pooled": {
+      "n": 175617,
+      "accuracy": 0.8112768126092577,
+      "balanced_accuracy": 0.6882168045987389,
+      "macro_f1": 0.6366229514459095,
+      "cohen_kappa": 0.4644868413914418,
+      "macro_auc_ovr": 0.8625049858698386,
+      "recall": {
+        "antagonistic": 0.6669294442254632,
+        "additive": 0.8548694045287807,
+        "synergistic": 0.5428515650419731
+      }
+    },
+    "S1_one_unseen": {
+      "n": 163428,
+      "accuracy": 0.8100876226839954,
+      "balanced_accuracy": 0.6929574712118841,
+      "macro_f1": 0.6408463296051781,
+      "cohen_kappa": 0.4698390882461393,
+      "macro_auc_ovr": 0.866982463892842,
+      "recall": {
+        "antagonistic": 0.6753919469576628,
+        "additive": 0.8527885910785926,
+        "synergistic": 0.5506918755993971
+      }
+    },
+    "S2_both_unseen": {
+      "n": 12189,
+      "accuracy": 0.8272212650750677,
+      "balanced_accuracy": 0.5923632593865238,
+      "macro_f1": 0.555556135257023,
+      "cohen_kappa": 0.35907085321263865,
+      "macro_auc_ovr": 0.7907324083097377,
+      "recall": {
+        "antagonistic": 0.5020188425302826,
+        "additive": 0.8810527301676501,
+        "synergistic": 0.3940182054616385
+      }
+    }
+  },
+  "coldtissue|42": {
+    "regime": "coldtissue",
+    "seed": 42,
+    "n_train": 565860,
+    "n_val": 62873,
+    "n_test": 111231,
+    "n_held_out": 7,
+    "pooled": {
+      "n": 111231,
+      "accuracy": 0.904666864453255,
+      "balanced_accuracy": 0.4311713383673978,
+      "macro_f1": 0.46614636329398973,
+      "cohen_kappa": 0.1970869268825901,
+      "macro_auc_ovr": 0.7720314007999791,
+      "recall": {
+        "antagonistic": 0.1491028556987617,
+        "additive": 0.9755595600326923,
+        "synergistic": 0.16885159937073937
+      }
+    },
+    "held_out": [
+      "bone",
+      "brain",
+      "kidney",
+      "pancreas",
+      "prostate",
+      "stomach",
+      "urinary_tract"
+    ]
+  },
+  "coldtissue|43": {
+    "regime": "coldtissue",
+    "seed": 43,
+    "n_train": 546026,
+    "n_val": 60669,
+    "n_test": 133269,
+    "n_held_out": 8,
+    "pooled": {
+      "n": 133269,
+      "accuracy": 0.897500544012486,
+      "balanced_accuracy": 0.4213965953189041,
+      "macro_f1": 0.4555030163944311,
+      "cohen_kappa": 0.17787714047882175,
+      "macro_auc_ovr": 0.7421414935631298,
+      "recall": {
+        "antagonistic": 0.14462490332559938,
+        "additive": 0.9761833731105808,
+        "synergistic": 0.14338150952053222
+      }
+    },
+    "held_out": [
+      "bone",
+      "brain",
+      "endometrium",
+      "liver",
+      "lung",
+      "malaria",
+      "pancreas",
+      "stomach"
+    ]
+  }
+}
